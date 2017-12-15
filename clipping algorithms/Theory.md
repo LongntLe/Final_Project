@@ -1,3 +1,6 @@
+# Introduction
+Windowing algorithm is a crucial part in 
+
 # Windowing and the need for an online algorithm
 Imagine that we are using Google Maps. When we move the window, we are essentially sending a query to the server to update the screen. Thus, to optimize the process time, we need to use an online algorithm, which means it will process the queries without having to load every initial data.
 
@@ -10,6 +13,8 @@ The performance of segment trees is summarized in the following theorem:
 
 ## Theorem
 A segment tree for a set I of n intervals uses O(n log n) storage and can be built in O(nlogn) time. Using the segment tree we can report all intervals that contain a query point in O(log n + k) time, where k is the number of reported intervals. 
+
+## Operations
 
 ## Query types
 * Sum query
@@ -34,6 +39,13 @@ Preprocessing time: O(n log n)
 Query time: O(log n)
 
 Some notes about the trees: https://stackoverflow.com/questions/17466218/what-are-the-differences-between-segment-trees-interval-trees-binary-indexed-t
+
+# Application
+
+# Task left
+* Implement the algorithm
+* Write up
+
 
 # Source
 https://cw.fel.cvut.cz/wiki/_media/misc/projects/oppa_oi_english/courses/ae4m39vg/lectures/10-windowing.pdf
